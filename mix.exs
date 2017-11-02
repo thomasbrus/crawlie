@@ -67,7 +67,7 @@ defmodule Crawlie.Mixfile do
     [
       {:gen_stage, "~> 0.12.0"},
       {:flow, "~> 0.12.0"},
-      {:httpoison, "~> 0.10.0"},
+      {:httpoison, "~> 0.13"},
       {:pqueue, "~> 1.5"},
       {:meck, "~> 0.8", only: :test},
       # testing and documentation
